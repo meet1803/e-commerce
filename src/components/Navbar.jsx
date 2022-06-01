@@ -4,6 +4,7 @@ import React from "react";
 import styled from "styled-components";
 import { mobile } from "../responsive";
 
+
 const Container = styled.div`
   height: 60px;
   ${mobile({ height: "50px" })}
@@ -71,16 +72,18 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Left>
-          <Language>EN</Language>
-          <SearchContainer>
+        <Logo>
+          FASHION HUB
+        </Logo>
+        </Left>
+        <Center>
+          
+        </Center>
+        <Right>
+        <SearchContainer>
             <Input placeholder="Search" />
             <Search style={{ color: "gray", fontSize: 16 }} />
           </SearchContainer>
-        </Left>
-        <Center>
-          <Logo>FASHION HUB logo.</Logo>
-        </Center>
-        <Right>
           <MenuItem>REGISTER</MenuItem>
           <MenuItem>SIGN IN</MenuItem>
           <MenuItem>
