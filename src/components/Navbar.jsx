@@ -73,7 +73,7 @@ const Navbar = () => {
       <Wrapper>
         <Left>
         <Logo>
-          FASHION HUB
+          FASHION HUB.
         </Logo>
         </Left>
         <Center>
