@@ -1,76 +1,101 @@
 export const sliderItems = [
-    {
-      id: 1,
-      img: "https://i.ibb.co/XsdmR2c/1.png",
-      title: "SUMMER SALE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "f5fafd",
-    },
-    {
-      id: 2,
-      img: "https://i.ibb.co/DG69bQ4/2.png",
-      title: "AUTUMN COLLECTION",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "fcf1ed",
-    },
-    {
-      id: 3,
-      img: "https://i.ibb.co/cXFnLLV/3.png",
-      title: "LOUNGEWEAR LOVE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "fbf0f4",
-    },
-  ];
+  {
+    id: 1,
+    img: "https://www.outfit-fashion.com/wp-content/uploads/2019/09/Summer-Outfit-for-Men.jpg",
+    title: "SUMMER SALE",
+    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    bg: "f5fafd",
+  },
+  {
+    id: 2,
+    img: "https://i.ibb.co/DG69bQ4/2.png",
+    title: "AUTUMN COLLECTION",
+    desc: "EXPERIENCE DIFFERENT SHADES OF AUTUMN WITH US",
+    bg: "fcf1ed",
+  },
+  {
+    id: 3,
+    img: "https://images.indianexpress.com/2018/07/monsoon-kids-fashion.jpg?w=389",
+    title: "Monsoon Sale",
+    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR MONSOONS.",
+    bg: "f5fafd",
+  },
+  {
+    id: 4,
+    img: "https://i.ibb.co/cXFnLLV/3.png",
+    title: "LOUNGEWEAR LOVE",
+    desc: "STAY IN COMFORT ZONE WITHOUT IGNORING THE FASHION TRENDS.",
+    bg: "fbf0f4",
+  },
+  {
+    id: 5,
+    img: "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/16740784/2022/3/24/8be0b940-5d46-4bea-b4e0-5209d2a981d41648123498686-ADIDAS-Originals-Men-Track-Pants-1941648123497999-1.jpg",
+    title: "SPORTS WEAR",
+    desc: "DRESS UP YOUR SPORTS WEAR AND DRESS DOWN YOUR FORMAL WEAR..",
+    bg: "f5fafd",
+  },
+];
 
-  export const categories = [
-    {
-      id: 1,
-      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "SHIRT STYLE!",
-    },
-    {
-      id: 2,
-      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "LOUNGEWEAR LOVE",
-    },
-    {
-      id: 3,
-      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      title: "LIGHT JACKETS",
-    },
-  ];
 
-  export const popularProducts = [
-    {
-      id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
-    },
-    {
-      id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
-    },
-    {
-      id:3,
-      img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
-    },
-    {
-      id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
-    },
-    {
-      id:5,
-      img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
-    },
-    {
-      id:6,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
-    },
-    {
-      id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
-    },
-    {
-      id:8,
-      img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
-    },
-  ]
+export const categories = [
+  {
+    id: 1,
+    img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    title: "SHIRT STYLE!",
+  },
+  {
+    id: 2,
+    img: "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/1280x1280/products/25919/238658/13-Style-Design-Denim-Skinny-Jeans-Distressed-Men-New-2018-Spring-Autumn-Clothing-Good-Quality__98374.1549624463.jpg?c=2",
+    title: "JEANS DESIGN",
+  },
+  {
+    id: 3,
+    img: "https://i.pinimg.com/originals/23/c2/30/23c2304d9529bb436ca1c74affcde853.jpg",
+    title: "TRADITIONAL!",
+  },
+  {
+    id: 4,
+    img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    title: "JACKETS",
+  },
+  {
+    id: 5,
+    img: "https://www.mongoosekart.com/image/data/Blog/kurti%20types/Layered%20kurti.png",
+    title: "KURTI'S",
+  },
+];
+
+export const popularProducts = [
+  {
+    id:1,
+    img:"",
+  },
+  {
+    id:2,
+    img:"",
+  },
+  {
+    id:3,
+    img:"",
+  },
+  {
+    id:4,
+    img:"",
+  },
+  {
+    id:5,
+    img:"",
+  },
+  {
+    id:6,
+    img:"",
+  },
+  {
+    id:7,
+    img:"",
+  },
+  {
+    id:8,
+    img:"",
+  },
+]
