@@ -91,7 +91,7 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo>FASHION HUB</Logo>
+        <Logo>FASHION HUB.</Logo>
         <Desc>
           GO ALONG WITH LATEST TRENDS WITH US.
         </Desc>
@@ -126,13 +126,13 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <Room style={{marginRight:"10px"}}/> XYZ
+          <Room style={{marginRight:"10px"}}/> India
         </ContactItem>
         <ContactItem>
           <Phone style={{marginRight:"10px"}}/> +91 1234056789
         </ContactItem>
         <ContactItem>
-          <MailOutline style={{marginRight:"10px"}} /> contact@xyz
+          <MailOutline style={{marginRight:"10px"}}/> myfashion1803hub@gmail.com <link rel="stylesheet" href="myfashion1803hub@gmail.com" />
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
