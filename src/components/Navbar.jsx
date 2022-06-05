@@ -1,9 +1,9 @@
 import { Badge } from "@material-ui/core";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import styled from "styled-components";
-import Home from "../pages/Home";
+// import Home from "../pages/Home";
 import { mobile } from "../responsive";
 // import { useNavigate } from "react-router-dom";
 //  import Register from "../pages/Register";
