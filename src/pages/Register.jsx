@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { mobile } from "../responsive";
+// import { useHistory } from "react-router-dom";
 
 const Container = styled.div`
   width: 100vw;
@@ -55,6 +56,7 @@ const Button = styled.button`
 `;
 
 const Register = () => {
+  // let history = useHistory();
   return (
     <Container>
       <Wrapper>

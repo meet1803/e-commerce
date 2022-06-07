@@ -1,5 +1,6 @@
 import Product from "./pages/Product";
 import Home from "./pages/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProductList from "./pages/ProductList";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart"; 
@@ -8,26 +9,19 @@ import Register from "./pages/Register";
 
 const App = () => {
   return (
-    <div>
-      <Home/>
-      <Cart/>
-    </div>
-    
-  // <Router>
-  //   <div>
-  //         <Switch>
-              
-  //         <Route path="/register">
-  //           <Register />
-  //         </Route>
-  //       </Switch>
-        
-  //   <Route path="/Register">
-  //       <Register/>
-  //     </Route>
-      
-  // </div>
-  // </Router>
+    <>
+      <Home/> 
+
+       <Router>
+          <Routes>  
+          <Route path="/" element={<Home />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} /> 
+          </Routes> 
+      </Router>
+      </>
+
+  
   
   );
 };
