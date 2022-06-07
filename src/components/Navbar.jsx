@@ -1,12 +1,16 @@
 import { Badge } from "@material-ui/core";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import React from "react";
-// import { Link } from "react-router-dom";
 import styled from "styled-components";
-// import Home from "../pages/Home";
 import { mobile } from "../responsive";
-// import { useNavigate } from "react-router-dom";
-//  import Register from "../pages/Register";
+import {
+  BrowserRouter as Router,
+  Link,
+  useParams
+} from "react-router-dom";
+import { Routes ,Route } from 'react-router-dom';
+import Register from "../pages/Register";
+import Login from "../pages/Login";
 
 const Container = styled.div`
   height: 60px;
@@ -41,6 +45,7 @@ const SearchContainer = styled.div`
   margin-left: 45px;
   margin-right: 25px;
   padding: 5px;
+  margin-bottom: 39px;
 `;
 
 const Input = styled.input`
@@ -55,6 +60,7 @@ const Center = styled.div`
 `;
 
 const Logo = styled.h1`
+  margin-bottom: 39px;
   font-weight: bold;
   ${mobile({ fontSize: "24px" })}
 `;
@@ -70,13 +76,16 @@ const MenuItem = styled.div`
   font-size: 16px;
   cursor: pointer;
   margin-left: 45px;
+  margin-bottom: 38px;
   ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 
 const Navbar = () => {
-  // const navigate = useNavigate();
+  
   return (
-    <Container>
+    <Router>
+      <div>
+      <Container>
       <Wrapper>
         <Left>
         <Logo>
@@ -90,24 +99,41 @@ const Navbar = () => {
           </SearchContainer>
         </Center>
         <Right>
-        
-           {/* <MenuItem onClick={()=>{
-              navigate('/Register');
-           }}>REGISTER</MenuItem> */}
-           {/* <Link rel="stylesheet" to="/">REGISTER</Link> */}
-          
-             <MenuItem>ManFashion</MenuItem>
-             <MenuItem>WomanFashion</MenuItem>
-             <MenuItem>REGISTER</MenuItem>
-             <MenuItem>SIGNIN</MenuItem>
+                {/* <MenuItem>ManFashion</MenuItem>
+                <MenuItem>WomanFashion</MenuItem>
+                <MenuItem>REGISTER</MenuItem>
+                <MenuItem>SIGNIN</MenuItem> */}
+
+            <ul>
+          <li>
+          <Link to="/menfashion">Menfashion</Link>
+          </li>
+          <li>
+            <Link to="/womenfashion">Womenfashion</Link>
+          </li>
+          <li>
+            <Link to="/Register">REGISTER</Link>
+          </li>
+          <li>
+            <Link to="/Login">SIGN IN</Link>
+          </li>
+        </ul>
           <MenuItem>
             <Badge badgeContent={0} color="primary">
               <ShoppingCartOutlined />
             </Badge>
           </MenuItem>
-        </Right>
-      </Wrapper>
-    </Container>
+          </Right>
+        </Wrapper>
+      </Container>
+        
+
+        <Routes>
+            <Route path='/Register' element={<Register/>} />
+            <Route path='/Login' element={<Login/>} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
 

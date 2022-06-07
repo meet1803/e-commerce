@@ -5,10 +5,16 @@ import {
   Phone,
   Pinterest,
   Room,
+  Router,
   Twitter,
 } from "@material-ui/icons";
 import styled from "styled-components";
 import { mobile } from "../responsive";
+import { Routes ,Route } from 'react-router-dom';
+import {
+  Link,
+  useParams
+} from "react-router-dom";
 
 const Container = styled.div`
   display: flex;
@@ -113,14 +119,19 @@ const Footer = () => {
       <Center>
         <Title>Useful Links</Title>
         <List>
-          <ListItem>Home</ListItem>
-          <ListItem>My Account</ListItem>
+          <ul>
+            <li>
+                <Link to="/Home">Home</Link>
+            </li>
+          </ul>
+          {/* <ListItem>Home</ListItem> */}
+          {/* <ListItem>My Account</ListItem> */}
           <ListItem>Man Fashion</ListItem>
           <ListItem>Order Tracking</ListItem>
           <ListItem>Woman Fashion</ListItem>
           <ListItem>Cart</ListItem>
           <ListItem>Wishlist</ListItem>
-          <ListItem>Terms</ListItem>
+          {/* <ListItem>Terms</ListItem> */}
         </List>
       </Center>
       <Right>
@@ -137,6 +148,7 @@ const Footer = () => {
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
     </Container>
+    
   );
 };
 

@@ -38,16 +38,18 @@ const Input = styled.input`
   min-width: 40%;
   margin: 10px 0;
   padding: 10px;
+  border-radius: 10px;
 `;
 
 const Button = styled.button`
-  width: 40%;
+  width: 30%;
   border: none;
-  padding: 15px 20px;
+  padding: 5px 20px;
   background-color: teal;
   color: white;
   cursor: pointer;
   margin-bottom: 10px;
+  border-radius: 10px;
 `;
 
 const Link = styled.a`
@@ -55,6 +57,7 @@ const Link = styled.a`
   font-size: 12px;
   text-decoration: underline;
   cursor: pointer;
+  font-weight: bold;
 `;
 
 const Login = () => {
