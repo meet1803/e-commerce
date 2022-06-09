@@ -5,16 +5,10 @@ import {
   Phone,
   Pinterest,
   Room,
-  Router,
   Twitter,
 } from "@material-ui/icons";
 import styled from "styled-components";
 import { mobile } from "../responsive";
-import { Routes ,Route } from 'react-router-dom';
-import {
-  Link,
-  useParams
-} from "react-router-dom";
 
 const Container = styled.div`
   display: flex;
@@ -119,19 +113,15 @@ const Footer = () => {
       <Center>
         <Title>Useful Links</Title>
         <List>
-          <ul>
-            <li>
-                <Link to="/Home">Home</Link>
-            </li>
-          </ul>
-          {/* <ListItem>Home</ListItem> */}
-          {/* <ListItem>My Account</ListItem> */}
+          <link rel="stylesheet" to="/Home" />
+          <ListItem>Home</ListItem>
           <ListItem>Man Fashion</ListItem>
           <ListItem>Order Tracking</ListItem>
           <ListItem>Woman Fashion</ListItem>
           <ListItem>Cart</ListItem>
           <ListItem>Wishlist</ListItem>
           {/* <ListItem>Terms</ListItem> */}
+          {/* <ListItem>My Account</ListItem> */}
         </List>
       </Center>
       <Right>
