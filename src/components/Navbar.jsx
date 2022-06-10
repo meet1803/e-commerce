@@ -43,7 +43,7 @@ const SearchContainer = styled.div`
   display: flex;  
   align-items: center;
   margin-left: 45px;
-  margin-right: 25px;
+  margin-right: 500px;
   padding: 5px;
   margin-bottom: 39px;
 `;
@@ -56,7 +56,7 @@ const Input = styled.input`
 
 const Center = styled.div`
   flex: 1;
-  // text-align: center;
+  text-align: center;
 `;
 
 const Logo = styled.h1`
@@ -84,6 +84,7 @@ const Navbar = () => {
   
   return (
     <Router>
+      <nav>        
       <div>
       <Container>
       <Wrapper>
@@ -103,21 +104,23 @@ const Navbar = () => {
                 <MenuItem>WomanFashion</MenuItem>
                 <MenuItem>REGISTER</MenuItem>
                 <MenuItem>SIGNIN</MenuItem> */}
-
-            <ul>
-          <li>
-          <Link to="/menfashion">Menfashion</Link>
-          </li>
-          <li>
-            <Link to="/womenfashion">Womenfashion</Link>
-          </li>
-          <li>
-            <Link to="/Register">REGISTER</Link>
-          </li>
-          <li>
-            <Link to="/Login">SIGN IN</Link>
-          </li>
-        </ul>
+          
+              <ul>
+              <li>
+              <Link to="/menfashion">Menfashion</Link>
+              </li>
+              <li>
+                <Link to="/womenfashion">Womenfashion</Link>
+              </li>
+              <li>
+                <Link to="/Register">REGISTER</Link>
+              </li>
+              <li>
+                  <Link to="/Login">SIGN IN</Link>
+              </li>
+            </ul>
+          
+            
           <MenuItem>
             <Badge badgeContent={0} color="primary">
               <ShoppingCartOutlined />
@@ -133,6 +136,7 @@ const Navbar = () => {
             <Route path='/Login' element={<Login/>} />
         </Routes>
       </div>
+      </nav>
     </Router>
   );
 };
