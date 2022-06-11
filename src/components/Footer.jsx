@@ -113,14 +113,15 @@ const Footer = () => {
       <Center>
         <Title>Useful Links</Title>
         <List>
+          <link rel="stylesheet" to="/Home" />
           <ListItem>Home</ListItem>
-          <ListItem>My Account</ListItem>
           <ListItem>Man Fashion</ListItem>
           <ListItem>Order Tracking</ListItem>
           <ListItem>Woman Fashion</ListItem>
           <ListItem>Cart</ListItem>
           <ListItem>Wishlist</ListItem>
-          <ListItem>Terms</ListItem>
+          {/* <ListItem>Terms</ListItem> */}
+          {/* <ListItem>My Account</ListItem> */}
         </List>
       </Center>
       <Right>
@@ -137,6 +138,7 @@ const Footer = () => {
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
     </Container>
+    
   );
 };
 

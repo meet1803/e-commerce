@@ -24,7 +24,7 @@ const Desc = styled.div`
 `;
 
 const InputContainer = styled.div`
-  width: 50%;
+  width: 40%;
   height: 40px;
   background-color: white;
   display: flex;

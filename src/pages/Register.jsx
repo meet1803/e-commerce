@@ -39,6 +39,7 @@ const Input = styled.input`
   min-width: 40%;
   margin: 20px 10px 0px 0px;
   padding: 10px;
+  border-radius: 10px;
 `;
 
 const Agreement = styled.span`
@@ -47,12 +48,13 @@ const Agreement = styled.span`
 `;
 
 const Button = styled.button`
-  width: 40%;
+  width: 30%;
   border: none;
-  padding: 15px 20px;
+  padding: 10px 20px;
   background-color: teal;
   color: white;
   cursor: pointer;
+  border-radius: 10px;
 `;
 
 const Register = () => {
