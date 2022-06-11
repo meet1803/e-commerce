@@ -68,34 +68,62 @@ export const categories = [
 export const popularProducts = [
   {
     id:1,
-    img:"",
+    img:"https://m.media-amazon.com/images/I/41L+rtD749L._SY300_SX300_.jpg",
   },
   {
     id:2,
-    img:"",
+    img:"https://media1.popsugar-assets.com/files/thumbor/Lstx2AEobONBJvX6kHcutQEKesk/0x0:1500x1500/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2019/10/11/835/n/1922564/49fab0c25da0d1d78bd8f4.82733933_/i/most-popular-products-from-amazon-fashion.jpg",
   },
   {
     id:3,
-    img:"",
+    img:"https://honasa-mamaearth-production.imgix.net/u/b/ubtan-face-wash_1_1.jpg?auto=format&fit=crop&w=332&auto=compress",
   },
   {
     id:4,
-    img:"",
+    img:"https://media.casioindiashop.com/assets/products-images/enlarge-image/A834.webp",
   },
   {
     id:5,
-    img:"",
+    img:"https://cdn.shopify.com/s/files/1/0014/3514/0183/products/P_M_swtach_lipstick_400x.png?v=1653546322",
   },
   {
     id:6,
-    img:"",
+    img:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13438290/2021/11/4/ee9855e9-ecd2-4f75-9060-5dd3f28449811636013205318RoadsterWomenMustardYellowWovenDesignSneakers1.jpg",
   },
   {
     id:7,
-    img:"",
+    img:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11991442/2020/11/2/35fe3a38-568b-47d5-9929-c973c883eed31604298152409-Roadster-Women-Sweatshirts-9321604298149320-1.jpg",
   },
   {
     id:8,
-    img:"",
+    img:"https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/6982796/2021/8/17/56fffb43-fd53-4f41-a5b3-bb3d2fb0d5651629172347986-THE-MAN-COMPANY-Blanc-Body-Perfume-120-ml-5441629172347723-1.jpg",
   },
+]
+
+export const mensProducts = [
+  {
+    id:1,
+    img:"https://images.beardo.in/eyJidWNrZXQiOiJiZWFyZG9jIiwia2V5IjoidXBsb2Fkcy91bHRpbWF0ZS1zdW1tZXItZXNzZW50aWFscy1jb21iby0xMDgweDg1NS0zODQ5Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEsImhlaWdodCI6NzAwLCJmaXQiOiJvdXRzaWRlIn19fQ==",
+  },
+  {
+    id:2,
+    img:"https://shopzlade.com/wp-content/uploads/2021/08/ZW1HEAD2-NEW-680x680.png",
+  },
+  {
+    id:3,
+    img:"https://ath2.unileverservices.com/wp-content/uploads/sites/3/2016/08/mens-brown-hair-.jpg",
+  },
+  {
+    id:4,
+    img:"https://m.media-amazon.com/images/I/61xcAzDvvdL._UX569_.jpg",
+  },
+  {
+    id:5,
+    img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-960,/pub/media/catalog/product/4/0/4062449827798_1_6d4c9836.jpg?rnd=20200526195200",
+  },
+  {
+    id:6,
+    img:"https://m.media-amazon.com/images/I/61utX8kBDlL._UY625_.jpg",
+  },
+  
 ]

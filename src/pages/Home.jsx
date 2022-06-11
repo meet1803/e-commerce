@@ -2,6 +2,7 @@ import React from "react";
 import Announcement from "../components/Announcement";
 import Categories from "../components/Categories";
 import Footer from "../components/Footer";
+import Mensfashion from "../components/Menfashion";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
 import Products from "../components/Products";
@@ -17,6 +18,7 @@ const Home = () => {
       <Slider />
       <Categories />
       <Products/>
+      <Mensfashion/>
       <Newsletter/>
       <Footer/>
     </div>
