@@ -107,7 +107,7 @@ const Navbar = () => {
           
               <ul>
               <li>
-              <Link to="/menfashion">Menfashion</Link>
+              <Link to="/Menfashion">Menfashion</Link>
               </li>
               <li>
                 <Link to="/womenfashion">Womenfashion</Link>
