@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import { Routes ,Route } from 'react-router-dom';
 import Register from "../pages/Register";
+import Menfashion from "../components/Menfashion";
 import Login from "../pages/Login";
 
 const Container = styled.div`
@@ -107,10 +108,10 @@ const Navbar = () => {
           
               <ul>
               <li>
-              <Link to="/menfashion">Menfashion</Link>
+              <Link to="/Menfashion">Menfashion</Link>
               </li>
               <li>
-                <Link to="/womenfashion">Womenfashion</Link>
+                <Link to="/Womenfashion">Womenfashion</Link>
               </li>
               <li>
                 <Link to="/Register">REGISTER</Link>
@@ -132,6 +133,7 @@ const Navbar = () => {
         
 
         <Routes>
+          <Route path='/Menfashion' element={<Menfashion/>}/>
             <Route path='/Register' element={<Register/>} />
             <Route path='/Login' element={<Login/>} />
         </Routes>

@@ -17,8 +17,11 @@ const Home = () => {
       <Navbar />
       <Slider />
       <Categories />
+      <h1>Popular Products</h1>
       <Products/>
+      <h1>Mens Fashion</h1>
       <Mensfashion/>
+      <h1>Women Fashion</h1>
       <Newsletter/>
       <Footer/>
     </div>
