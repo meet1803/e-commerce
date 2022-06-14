@@ -11,6 +11,7 @@ import {
 import { Routes ,Route } from 'react-router-dom';
 import Register from "../pages/Register";
 import Menfashion from "../components/Menfashion";
+import Womenfashion from "../components/Womenfashion";
 import Login from "../pages/Login";
 
 const Container = styled.div`
@@ -134,6 +135,7 @@ const Navbar = () => {
 
         <Routes>
           <Route path='/Menfashion' element={<Menfashion/>}/>
+          <Route path='/Womenfashion' element={<Womenfashion/>}/>
             <Route path='/Register' element={<Register/>} />
             <Route path='/Login' element={<Login/>} />
         </Routes>

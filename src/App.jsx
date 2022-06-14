@@ -8,17 +8,7 @@ import Navbar from "./components/Navbar";
 import Register from "./pages/Register";
 
 const App = () => {
-
-  // return (
-  //   <>
-  //     <Home/> 
-  //     </>
-
-  
-  
-  // );
   return <Home/>;
-
 };
 
 export default App;

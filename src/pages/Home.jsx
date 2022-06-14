@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
 import Products from "../components/Products";
 import Slider from "../components/Slider";
+import Womenfashion from "../components/Womenfashion";
 import Login from "./Login";
 import Register from "./Register";
 
@@ -22,6 +23,7 @@ const Home = () => {
       <h1>Mens Fashion</h1>
       <Mensfashion/>
       <h1>Women Fashion</h1>
+      <Womenfashion/>
       <Newsletter/>
       <Footer/>
     </div>

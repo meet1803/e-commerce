@@ -1,3 +1,4 @@
+
 import styled from "styled-components";
 import { mensProducts } from "../data";
 import Product from "./Product";
@@ -20,3 +21,10 @@ const Mensfashion = () => {
 };
 
 export default Mensfashion;
+
+const menfashion = () =>{
+    return <>
+        <div>Menfashion</div>
+    </>
+}
+

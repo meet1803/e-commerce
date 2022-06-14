@@ -127,3 +127,31 @@ export const mensProducts = [
   },
   
 ]
+
+export const womensProducts = [
+  {
+    id:1,
+    img:"https://images.beardo.in/eyJidWNrZXQiOiJiZWFyZG9jIiwia2V5IjoidXBsb2Fkcy91bHRpbWF0ZS1zdW1tZXItZXNzZW50aWFscy1jb21iby0xMDgweDg1NS0zODQ5Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEsImhlaWdodCI6NzAwLCJmaXQiOiJvdXRzaWRlIn19fQ==",
+  },
+  {
+    id:2,
+    img:"https://shopzlade.com/wp-content/uploads/2021/08/ZW1HEAD2-NEW-680x680.png",
+  },
+  {
+    id:3,
+    img:"https://ath2.unileverservices.com/wp-content/uploads/sites/3/2016/08/mens-brown-hair-.jpg",
+  },
+  {
+    id:4,
+    img:"https://m.media-amazon.com/images/I/61xcAzDvvdL._UX569_.jpg",
+  },
+  {
+    id:5,
+    img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-960,/pub/media/catalog/product/4/0/4062449827798_1_6d4c9836.jpg?rnd=20200526195200",
+  },
+  {
+    id:6,
+    img:"https://m.media-amazon.com/images/I/61utX8kBDlL._UY625_.jpg",
+  },
+  
+]
