@@ -10,6 +10,8 @@ import {
 } from "react-router-dom";
 import { Routes ,Route } from 'react-router-dom';
 import Register from "../pages/Register";
+import Menfashion from "../components/Menfashion";
+import Womenfashion from "../components/Womenfashion";
 import Login from "../pages/Login";
 import NavLinks from "./NavLinks";
 
@@ -110,7 +112,7 @@ const Navbar = () => {
               <Link to="/Menfashion">Menfashion</Link>
               </li>
               <li>
-                <Link to="/womenfashion">Womenfashion</Link>
+                <Link to="/Womenfashion">Womenfashion</Link>
               </li>
               <li>
                 <Link to="/Register">REGISTER</Link>
@@ -130,6 +132,8 @@ const Navbar = () => {
         </Wrapper>
       </Container>
         <Routes>
+          <Route path='/Menfashion' element={<Menfashion/>}/>
+          <Route path='/Womenfashion' element={<Womenfashion/>}/>
             <Route path='/Register' element={<Register/>} />
             <Route path='/Login' element={<Login/>} />
         </Routes>
