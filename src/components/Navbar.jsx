@@ -11,6 +11,7 @@ import {
 import { Routes ,Route } from 'react-router-dom';
 import Register from "../pages/Register";
 import Login from "../pages/Login";
+import NavLinks from "./NavLinks";
 
 const Container = styled.div`
   height: 60px;
@@ -83,8 +84,7 @@ const MenuItem = styled.div`
 const Navbar = () => {
   
   return (
-    <Router>
-      <nav>        
+    <Router>     
       <div>
       <Container>
       <Wrapper>
@@ -129,14 +129,11 @@ const Navbar = () => {
           </Right>
         </Wrapper>
       </Container>
-        
-
         <Routes>
             <Route path='/Register' element={<Register/>} />
             <Route path='/Login' element={<Login/>} />
         </Routes>
       </div>
-      </nav>
     </Router>
   );
 };
