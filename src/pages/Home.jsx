@@ -1,4 +1,7 @@
+import { RotateLeftRounded } from "@material-ui/icons";
+import { styled } from "@material-ui/styles";
 import React from "react";
+import { isStyledComponent } from "styled-components";
 import Announcement from "../components/Announcement";
 import Categories from "../components/Categories";
 import Footer from "../components/Footer";
@@ -8,8 +11,6 @@ import Newsletter from "../components/Newsletter";
 import Products from "../components/Products";
 import Slider from "../components/Slider";
 import Womenfashion from "../components/Womenfashion";
-import Login from "./Login";
-import Register from "./Register";
 
 const Home = () => {
   return (
@@ -17,12 +18,14 @@ const Home = () => {
       <Announcement />
       <Navbar />
       <Slider />
+      <br />
+      <h1>SHOP BY CATEGORY</h1>
       <Categories />
-      <h1>Popular Products</h1>
+      <h1>POPULAR PRODUCTS</h1>
       <Products/>
-      <h1>Mens Fashion</h1>
+      <h1>MEN'S FASHION</h1>
       <Mensfashion/>
-      <h1>Women Fashion</h1>
+      <h1>WOMEN'S FASHION</h1>
       <Womenfashion/>
       <Newsletter/>
       <Footer/>

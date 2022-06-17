@@ -13,7 +13,7 @@ import Register from "../pages/Register";
 import Menfashion from "../components/Menfashion";
 import Womenfashion from "../components/Womenfashion";
 import Login from "../pages/Login";
-import NavLinks from "./NavLinks";
+
 
 const Container = styled.div`
   height: 60px;
@@ -124,7 +124,7 @@ const Navbar = () => {
           
             
           <MenuItem>
-            <Badge badgeContent={0} color="primary">
+            <Badge badgeContent={0} color="primary" >
               <ShoppingCartOutlined />
             </Badge>
           </MenuItem>
