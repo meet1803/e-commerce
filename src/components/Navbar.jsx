@@ -71,7 +71,9 @@ const Right = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
+  list-style-type: none
   justify-content: flex-end;
+  }
   ${mobile({ flex: 2, justifyContent: "center" })}
 `;
 
@@ -80,6 +82,7 @@ const MenuItem = styled.div`
   cursor: pointer;
   margin-left: 45px;
   margin-bottom: 38px;
+ 
   ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 
@@ -101,24 +104,24 @@ const Navbar = () => {
             <Search style={{ color: "gray", fontSize: 16 }} />
           </SearchContainer>
         </Center>
-        <Right>
                 {/* <MenuItem>ManFashion</MenuItem>
                 <MenuItem>WomanFashion</MenuItem>
                 <MenuItem>REGISTER</MenuItem>
-                <MenuItem>SIGNIN</MenuItem> */}
+              <MenuItem>SIGNIN</MenuItem> */}
           
+              <Right>
               <ul>
-              <li>
-              <Link to="/Menfashion">Menfashion</Link>
+              <li style={{ listStyleType: "none" }}>
+              <Link style={{ textDecoration: 'none' }} to="/Menfashion">Menfashion</Link>
               </li>
-              <li>
-                <Link to="/Womenfashion">Womenfashion</Link>
+              <li style={{ listStyleType: "none" }}>
+                <Link style={{ textDecoration: 'none' }} to="/Womenfashion">Womenfashion</Link>
               </li>
-              <li>
-                <Link to="/Register">REGISTER</Link>
+              <li style={{ listStyleType: "none" }}>
+                <Link style={{ textDecoration: 'none' }} to="/Register">REGISTER</Link>
               </li>
-              <li>
-                  <Link to="/Login">SIGN IN</Link>
+              <li style={{ listStyleType: "none" }}>
+                  <Link style={{ textDecoration: 'none' }} to="/Login">SIGN IN</Link>
               </li>
             </ul>
           

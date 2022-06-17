@@ -55,7 +55,7 @@ const Button = styled.button`
 const Link = styled.a`
   margin: 5px 0px;
   font-size: 12px;
-  text-decoration: underline;
+  text-decoration: underline
   cursor: pointer;
   font-weight: bold;
 `;
