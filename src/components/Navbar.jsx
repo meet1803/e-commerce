@@ -15,6 +15,7 @@ import Womenfashion from "../components/Womenfashion";
 import Login from "../pages/Login";
 
 
+
 const Container = styled.div`
   height: 60px;
   ${mobile({ height: "50px" })}
@@ -103,7 +104,8 @@ const Navbar = () => {
             <Input placeholder="Search for products, brands and more" />
             <Search style={{ color: "gray", fontSize: 16 }} />
           </SearchContainer>
-        </Center>
+</Center>
+
                 {/* <MenuItem>ManFashion</MenuItem>
                 <MenuItem>WomanFashion</MenuItem>
                 <MenuItem>REGISTER</MenuItem>
@@ -111,19 +113,20 @@ const Navbar = () => {
           
               <Right>
               <ul>
-              <li style={{ listStyleType: "none" }}>
-              <Link style={{ textDecoration: 'none' }} to="/Menfashion">Menfashion</Link>
+                <li  style={{ listStyleType: "none"}}>
+              <Link style={{ textDecoration: 'none'}} to="/Menfashion">Menfashion</Link>
               </li>
-              <li style={{ listStyleType: "none" }}>
+              <li  style={{ listStyleType: "none"}}>
                 <Link style={{ textDecoration: 'none' }} to="/Womenfashion">Womenfashion</Link>
               </li>
-              <li style={{ listStyleType: "none" }}>
+               <li style={{ listStyleType: "none"}}>
                 <Link style={{ textDecoration: 'none' }} to="/Register">REGISTER</Link>
               </li>
-              <li style={{ listStyleType: "none" }}>
-                  <Link style={{ textDecoration: 'none' }} to="/Login">SIGN IN</Link>
+              <li style={{ listStyleType: "none"}}>
+                  <Link style={{ textDecoration: 'none' }} to="/Login">SIGN-IN</Link>
               </li>
-            </ul>
+</ul>
+            
           
             
           <MenuItem>
