@@ -17,7 +17,7 @@ import Login from "../pages/Login";
 
 
 const Container = styled.div`
-  height: 60px;
+  height: 100px;
   ${mobile({ height: "50px" })}
 `;
 
@@ -50,6 +50,7 @@ const SearchContainer = styled.div`
   margin-right: 500px;
   padding: 5px;
   margin-bottom: 39px;
+  margin-top: 25px;
 `;
 
 const Input = styled.input`
@@ -66,6 +67,7 @@ const Center = styled.div`
 const Logo = styled.h1`
   margin-bottom: 39px;
   font-weight: bold;
+  margin-top: 25px;
   ${mobile({ fontSize: "24px" })}
 `;
 const Right = styled.div`
@@ -120,10 +122,10 @@ const Navbar = () => {
                 <Link style={{ textDecoration: 'none' }} to="/Womenfashion">Womenfashion</Link>
               </li>
                <li style={{ listStyleType: "none"}}>
-                <Link style={{ textDecoration: 'none' }} to="/Register">REGISTER</Link>
+                <Link style={{ textDecoration: 'none' }} to="/Register">Register</Link>
               </li>
               <li style={{ listStyleType: "none"}}>
-                  <Link style={{ textDecoration: 'none' }} to="/Login">SIGN-IN</Link>
+                  <Link style={{ textDecoration: 'none' }} to="/Login">Sign In</Link>
               </li>
 </ul>
             
